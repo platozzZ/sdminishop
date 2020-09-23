@@ -1,0 +1,838 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/index/share",
+			"style": {
+				"navigationBarTitleText": "分享"
+			}
+		},
+		{
+			"path": "pages/tabBar/home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/tabBar/allGoods",
+			"style": {
+				"navigationBarTitleText": "全部分类"
+			}
+		},
+		{
+			"path": "pages/tabBar/livePlayer",
+			"style": {
+				"navigationBarTitleText": "直播首页"
+			}
+		},
+		{
+			"path": "pages/tabBar/shoppingCart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/tabBar/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/login/agreement",
+			"style": {
+				"navigationBarTitleText": "软件许可及服务协议"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "用户登录"
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "用户注册"
+			}
+		},
+		{
+			"path": "pages/login/retrievepassword",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		},
+		{
+			"path": "pages/collection/collection",
+			"style": {
+				"navigationBarTitleText": "收藏"
+			}
+		},
+		{
+			"path": "pages/collection/discover",
+			"style": {
+				"navigationBarTitleText": "发现"
+			}
+		},
+		
+		{
+			"path": "pages/my/aboutMe",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/my/myInfo",
+			"style": {
+				"navigationBarTitleText": "我的信息"
+			}
+		},
+		{
+			"path": "pages/my/mycoupon",
+			"style": {
+				"navigationBarTitleText": "我的优惠券"
+			}
+		},
+		{
+			"path": "pages/my/myScore",
+			"style": {
+				"navigationBarTitleText": "我的积分"
+			}
+		},
+		{
+			"path": "pages/my/gradeUse",
+			"style": {
+				"navigationBarTitleText": "使用说明"
+			}
+		},
+		{
+			"path": "pages/address/receivingAddress",
+			"style": {
+				"navigationBarTitleText": "收货地址"
+			}
+		},
+		{
+			"path": "pages/address/addAddress",
+			"style": {
+				"navigationBarTitleText": "添加地址"
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/message/systemMesage",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/message/service",
+			"style": {
+				"navigationBarTitleText": "在线客服"
+			}
+		},
+		// "app-plus":{"titleNView":false}
+		{
+			"path": "pages/message/detailedMesage",
+			"style": {
+				"navigationBarTitleText": "系统信息"
+			}
+		},
+		{
+			"path": "pages/order/myOrder",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/order/order_payment",
+			"style": {
+				"navigationBarTitleText": "请选择支付方式"
+			}
+		},
+		{
+			"path": "pages/order/orderSearch",
+			"style": {
+				"navigationBarTitleText": "搜索结果"
+			}
+		},
+		{
+			"path": "pages/order/batchOrder",
+			"style": {
+				"navigationBarTitleText": "选择商品列表"
+			}
+		},
+		{
+			"path": "pages/goods/goodsDetailed",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/goods/goods",
+			"style": {
+				"navigationBarTitleText" : "分类商品"
+			}
+		},
+		{
+			"path": "pages/pay/orderDetailsr",
+			"style": {
+				"navigationBarTitleText": "确认订单信息"
+			}
+		},
+		{
+			"path": "pages/pay/payResult",
+			"style": {
+				"navigationBarTitleText": "付款结果"
+			}
+		},
+		{
+			"path": "pages/expressage/expressage",
+			"style": {
+				"navigationBarTitleText": "物流信息"
+			}
+		},
+		{
+			"path": "pages/evaluate/evaluate",
+			"style": {
+				"navigationBarTitleText": "查看评论"
+			}
+		},
+		{
+			"path": "pages/evaluate/evaluating",
+			"style": {
+				"navigationBarTitleText": "评论"
+			}
+		},
+		{
+			"path": "pages/evaluate/evaluatEnd",
+			"style": {
+				"navigationBarTitleText": "评论完成"
+			}
+		}
+		,{
+			"path":"pages/apply/apply"
+		}
+        ,{
+            "path" : "pages/liveReplay/liveReplay",
+			"style": {
+				"navigationBarTitleText": "直播回放"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"navigationBarTitleText": "商城首页",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#9D9D9D",
+		"selectedColor": "#020202",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/tabBar/home",
+				"iconPath": "static/img/homeWx.png",
+				"selectedIconPath": "static/img/homeWxh.png",
+				"text": "商城"
+			},
+			{
+				"pagePath": "pages/tabBar/allGoods",
+				"iconPath": "static/img/goShoppingWx.png",
+				"selectedIconPath": "static/img/goShoppingWxh.png",
+				"text": "全部分类"
+			},
+			// #ifdef MP-WEIXIN || MP-BAIDU || MP-QQ 
+			{
+				"pagePath": "pages/tabBar/livePlayer",
+				"iconPath": "static/img/live.png",
+				"selectedIconPath": "static/img/livechecked.png",
+				"text": "来客直播"
+			},
+		    // #endif  
+			{
+				"pagePath": "pages/tabBar/shoppingCart",
+				"iconPath": "static/img/shoppingWx.png",
+				"selectedIconPath": "static/img/shoppingWxh.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/tabBar/my",
+				"iconPath": "static/img/myWx.png",
+				"selectedIconPath": "static/img/myWxh.png",
+				"text": "个人中心"
+			}
+		]
+	},
+	"condition": {
+		//模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	},
+	"subPackages": [{
+		"root": "pagesB",
+		"plugins": {
+			"live-player-plugin": {
+				"version": "1.0.3", 
+				"provider": "wx2b03c6e691cd7370" 
+			}
+		},
+		"pages": [{
+			"path": "expressage/expressage",
+			"style": {
+				"navigationBarTitleText": "查看物流"
+			}
+		},{
+				"path": "coupon/mycoupon",
+				"style": {
+					"navigationBarTitleText": "优惠券"
+				}
+			},
+			{
+				"path": "coupon/coupon_detail",
+				"style": {
+					"navigationBarTitleText": "确认订单信息"
+				}
+			},
+			{
+				"path": "myWallet/myWallet",
+				"style": {
+					"navigationBarTitleText": "我的钱包"
+				}
+			},
+			{
+				"path": "myWallet/recharge",
+				"style": {
+					"navigationBarTitleText": "充值"
+				}
+			},
+			{
+				"path": "myWallet/putForward",
+				"style": {
+					"navigationBarTitleText": "提现"
+				}
+			},
+			{
+				"path": "myWallet/rechargeSuccess",
+				"style": {
+					"navigationBarTitleText": "充值成功"
+				}
+			},
+			{
+				"path": "integral/integral",
+				"style": {
+					"navigationBarTitleText": "积分商城"
+				}
+			},
+			{
+				"path": "integral/integral_detail",
+				"style": {
+					"navigationBarTitleText": "商品详情"
+				}
+			},
+			{
+				"path": "integral/integral_order",
+				"style": {
+					"navigationBarTitleText": "确认订单"
+				}
+			},
+			{
+				"path": "setUp/setUp",
+				"style": {
+					"navigationBarTitleText": "设置"
+				}
+			},
+			{
+				"path": "setUp/loginPassword",
+				"style": {
+					"navigationBarTitleText": "设置登录密码"
+				}
+			},
+			{
+				"path": "setUp/payment",
+				"style": {
+					"navigationBarTitleText": "设置支付密码"
+				}
+			},
+			{
+				"path": "setUp/changePhone",
+				"style": {
+					"navigationBarTitleText": "修改手机号码"
+				}
+			},
+			{
+				"path": "setUp/paymentPassword",
+				"style": {
+					"navigationBarTitleText": "设置支付密码"
+				}
+			},
+			{
+				"path": "seckill/seckill",
+				"style": {
+					"navigationBarTitleText": "秒杀商品"
+				}
+			},
+			{
+				"path": "seckill/seckill_detail",
+				"style": {
+					"navigationBarTitleText": "秒杀商品"
+				}
+			},
+			{
+				"path": "seckill/seckill_my",
+				"style": {
+					"navigationBarTitleText": "我的秒杀"
+				}
+			},
+			{
+				"path": "seckill/seckillDetailsr",
+				"style": {
+					"navigationBarTitleText": "确认订单信息"
+				}
+			},
+			{
+				"path": "seckill/payResult",
+				"style": {
+					"navigationBarTitleText": "付款结果"
+				}
+			},
+			{
+				"path": "vip/vip_share",
+				"style": {
+					"navigationBarTitleText": "会员分享"
+				}
+			}
+		]
+	},{
+		"root": "pagesA",
+		"pages": [{
+				"path": "group/group",
+				"style": {
+					"navigationBarTitleText": "拼团"
+				}
+			},
+			{
+				"path": "group/groupDetailed",
+				"style": {
+					"navigationBarTitleText": "拼团详情"
+				}
+			},
+			{
+				"path": "group/group_end",
+				"style": {
+					"navigationBarTitleText": "一起参团"
+				}
+			},
+			{
+				"path": "group/payfor",
+				"style": {
+					"navigationBarTitleText": "订单确认"
+				}
+			},
+			{
+				"path": "group/groupOrder",
+				"style": {
+					"navigationBarTitleText": "我的拼团"
+				}
+			},
+			{
+				"path": "store/store",
+				"style": {
+					"navigationBarTitleText": "店铺"
+				}
+			},
+			{
+				"path": "myStore/activities_pro",
+				"style": {
+					"navigationBarTitleText": "活动商品"
+				}
+			},
+			{
+				"path": "myStore/activities_set",
+				"style": {
+					"navigationBarTitleText": "活动设置"
+				}
+			},
+			{
+				"path": "myStore/activities_add",
+				"style": {
+					"navigationBarTitleText": "添加活动商品"
+				}
+			},
+			{
+				"path": "myStore/activities_details",
+				"style": {
+					"navigationBarTitleText": "活动详情"
+				}
+			},
+			{
+				"path": "myStore/platform_activities",
+				"style": {
+					"navigationBarTitleText": "活动管理"
+				}
+			},
+			{
+				"path": "myStore/shipments",
+				"style": {
+					"navigationBarTitleText": "发货"
+				}
+			},
+			{
+				"path": "myStore/applyStore",
+				"style": {
+					"navigationBarTitleText": "申请开店"
+				}
+			},
+			{
+				"path": "myStore/myStore",
+				"style": {
+					"navigationBarTitleText": "我的店铺"
+				}
+			},
+			{
+				"path": "myStore/applySuc",
+				"style": {
+					"navigationBarTitleText": "申请开店"
+				}
+			},
+			{
+				"path": "myStore/myOrder",
+				"style": {
+					"navigationBarTitleText": "我的订单"
+				}
+			},
+			{
+				"path": "myStore/myPro",
+				"style": {
+					"navigationBarTitleText": "我的商品"
+				}
+			},
+			{
+				"path": "myStore/uploadPro",
+				"style": {
+					"navigationBarTitleText": "上传商品"
+				}
+			},
+			{
+				"path": "myStore/myCha",
+				"style": {
+					"navigationBarTitleText": "我的提现"
+				}
+			},
+			{
+				"path": "myStore/myCli",
+				"style": {
+					"navigationBarTitleText": "我的客户"
+				}
+			},
+			{
+				"path": "myStore/storeSetup",
+				"style": {
+					"navigationBarTitleText": "店铺设置"
+				}
+			},
+			{
+				"path": "myStore/storeRefund",
+				"style": {
+					"navigationBarTitleText": "退货审核"
+				}
+			},
+			{
+				"path": "myStore/order",
+				"style": {
+					"navigationBarTitleText": "订单详情"
+				}
+			},
+			{
+				"path": "myStore/setAttr",
+				"style": {
+					"navigationBarTitleText": "设置属性"
+				}
+			},
+			{
+				"path": "myStore/myFinance",
+				"style": {
+					"navigationBarTitleText": "交易明细"
+				}
+			},
+			{
+				"path": "myStore/goodsDetail",
+				"style": {
+					"navigationBarTitleText": "商品详情"
+				}
+			},
+			{
+				"path": "myStore/addStock",
+				"style": {
+					"navigationBarTitleText": "库存管理"
+				}
+			},
+			{
+				"path": "myStore/applyAgreement",
+				"style": {
+					"navigationBarTitleText": "入驻协议"
+				}
+			},
+			{
+				"path": "myStore/storeList",
+				"style": {
+					"navigationBarTitleText":"门店列表"
+				}
+			},
+			{
+				"path": "myStore/addStore",
+				"style": {
+					"navigationBarTitleText":"门店信息设置"
+				}
+			},
+			{
+				"path": "bidding/bidding",
+				"style": {
+					"navigationBarTitleText": "竞拍列表"
+				}
+			},
+			{
+				"path": "bidding/bidding_detailed",
+				"style": {
+					"navigationBarTitleText": "竞拍详情"
+				}
+			},
+			{
+				"path": "bidding/bidding_record",
+				"style": {
+					"navigationBarTitleText": "出价记录"
+				}
+			},
+			{
+				"path": "bidding/bidding_my",
+				"style": {
+					"navigationBarTitleText": "我的竞拍"
+				}
+			},
+			{
+				"path": "bidding/bidding_order",
+				"style": {
+					"navigationBarTitleText": "竞拍订单确认页"
+				}
+			},
+			{
+				"path": "bargain/bargain",
+				"style": {
+					"navigationBarTitleText": "砍价"
+				}
+			},
+			{
+				"path": "bargain/bargainIng",
+				"style": {
+					"navigationBarTitleText": "我的砍价"
+				}
+			},
+			{
+				"path": "bargain/rules",
+				"style": {
+					"navigationBarTitleText": "砍价规则"
+				}
+			},
+			{
+				"path": "vip/vip",
+				"style": {
+					"navigationBarTitleText": "会员"
+				}
+			},
+			{
+				"path": "vipClub/vipClub",
+				"style": {
+					"navigationBarTitleText": "VIP会员中心"
+				}
+			},
+			{
+				"path": "bidding/bidding_rule",
+				"style": {
+					"navigationBarTitleText": "竞拍规则"
+				}
+			},
+			{
+				"path": "bidding/bidding_detailed_Two",
+				"style": {
+					"navigationBarTitleText": "竞拍详情"
+				}
+			},
+			{
+				"path": "distribution/distribution_list",
+				"style": {
+					"navigationBarTitleText": "代理商品"
+				}
+			},
+			{
+				"path": "distribution/distribution_share",
+				"style": {
+					"navigationBarTitleText": "扫码分享"
+				}
+			},
+			{
+				"path": "distribution/distribution_result",
+				"style": {
+					"navigationBarTitleText": "提现"
+				}
+			},
+			{
+				"path": "distribution/distribution_form",
+				"style": {
+					"navigationBarTitleText": "佣金提现"
+				}
+			},
+			{
+				"path": "distribution/distribution_flow",
+				"style": {
+					"navigationBarTitleText": "佣金明细"
+				}
+			},
+			{
+				"path": "distribution/distribution_center",
+				"style": {
+					"navigationBarTitleText": "代理中心"
+				}
+			},
+			{
+				"path": "distribution/distribution_team",
+				"style": {
+					"navigationBarTitleText": "我的团队"
+				}
+			},
+			{
+				"path": "distribution/distribution_tocashFlow",
+				"style": {
+					"navigationBarTitleText": "提现明细"
+				}
+			},
+			{
+				"path": "distribution/distribution_rule",
+				"style": {
+					"navigationBarTitleText": "代理规则"
+				}
+			},
+			{
+				"path": "search/search",
+				"style": {
+					"navigationBarTitleText": "搜索商品"
+				}
+			},
+			{
+				"path": "search/searchResult",
+				"style": {
+					"navigationBarTitleText": "搜索结果"
+				}
+			},
+			{
+				"path": "shop/coupon",
+				"style": {
+					"navigationBarTitleText": "领券中心"
+				}
+			},
+			{
+				"path": "shop/sign",
+				"style": {
+					"navigationBarTitleText": "签到"
+				}
+			},
+			{
+				"path": "shop/invite",
+				"style": {
+					"navigationBarTitleText": "邀请有奖"
+				}
+			},
+			{
+				"path": "returnGoods/refund",
+				"style": {
+					"navigationBarTitleText": "申请退款"
+				}
+			},
+			{
+				"path": "returnGoods/returnGoods",
+				"style": {
+					"navigationBarTitleText": "请选择售后类型"
+				}
+			},
+			{
+				"path": "afterSale/afterSale",
+				"style": {
+					"navigationBarTitleText": "退款/售后"
+				}
+			},
+			{
+				"path": "afterSale/afterDetail",
+				"style": {
+					"navigationBarTitleText": "退款详情"
+				}
+			},
+			{
+				"path": "myStore/QRcode",
+				"style": {
+					"navigationBarTitleText":"扫一扫"
+				}
+			},
+			{
+				"path": "myStore/QRdraw",
+				"style": {
+					"navigationBarTitleText":"验证码提取"
+				}
+			},
+			{
+				"path": "myStore/QRsuccess",
+				"style": {
+					"navigationBarTitleText":"扫码提取"
+				}
+			},
+			{
+				"path": "myStore/MsIndex",
+				"style": {
+					"navigationBarTitleText":"限时秒杀"
+				}
+			},
+			{
+				"path": "myStore/orderdetails",
+				"style": {
+					"navigationBarTitleText":"订单详情"
+				}
+			},
+			{
+				"path": "myStore/editorder",
+				"style": {
+					"navigationBarTitleText":"编辑订单"
+				}
+			},
+			{
+				"path": "myStore/fight_manage",
+				"style": {
+					"navigationBarTitleText":"拼团管理"
+				}
+			}
+		]
+	}],
+	"preloadRule": {
+		"pages/tabBar/home": {
+			"network": "all",
+			"packages": ["pagesA","pagesB"]
+		}
+	}
+}
